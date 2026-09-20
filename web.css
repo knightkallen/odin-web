@@ -1,0 +1,87 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+/* .navy{
+    display: flex;
+} */
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #05054b;
+    color: white;
+}
+.links{
+    display: flex;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    background-color: #05054b;
+    color: white;
+    align-items: center;
+    gap: 20px;
+}
+.sign{
+    width: 400px;
+}
+.holder{
+    width: 200px;
+    height: 100px;
+    background-color: #878484;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+button{
+    font-size: 20px;
+    background-color: #2468dd;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.info{
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+.thought{
+    height: 200px;
+    background-color: #878484;
+    color: white;
+    
+}
+.action{
+    background-color: #2468dd;
+    color: white;
+}
+.footer{
+    height: 50px;
+    background-color: #05054b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
